@@ -68,7 +68,7 @@ nav> a {
 #posição {
     position: fixed;
 }
-@media (max-width: 570) {
+@media (max-width: 570px) {
     #posição {
         top: -100px;
     }
@@ -83,8 +83,8 @@ label[for='menu'] {
     background: dodgerblue;
     cursor: pointer;
     border-radius: 2px;
-    display: none;
 }
+
 h1> strong {
     width: 100px;
     height: 100px;
