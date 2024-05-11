@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root {
+            --bg-htm: url ( )
+            --bg-site: #d0d0d0;
+            --bg-section:  darkviolet;
+        }
+
+        .dark {
+            --bg-htn: url ( );
+            --bg-site: #3b3b3b;
+            --bg-section: violet;
+        }
+
+        body {
+            background: var(--bg-site);
+        }
+
+        #htn {
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            border: 3px solid black;
+            background: var(--bg-htm) no-repeat center center;
+            cursor: pointer;
+            transition: background 0.9%;
+            
+        }
+
+        section {
+            height: 100px;
+            background: darkviolet;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="htn" onclick="toggleMode()"></div>
+
+    <section></section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        function toggleMode() {
+            const html = document,documentelement;
+            html.classlist.toggleMode(dark)
+        }
+    </script>
+
+
+    
+</body>
+</html>
