@@ -132,9 +132,9 @@ p {
 }
 
 #navsocial a {
+    display: flex;
     padding: 16px;
     align-items: center;
-    padding: 16px;
     border-radius: 50%;
     justify-content: center;
     text-decoration: none;
