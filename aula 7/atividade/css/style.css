@@ -86,10 +86,11 @@ main {
     transform: translateY(-50%);
     cursor: pointer; 
     border: 1px solid black;
+    animation: slide-back 0.4s;
 }
 
 .light #bnt {
-    animation: slide-back 0.4s forwards;
+    animation: slide-in 0.4s forwards;
 }
 
 p {
