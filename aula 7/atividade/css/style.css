@@ -107,7 +107,7 @@ p {
 }
 
 #navlink a {
-    display: flex;
+   display: flex;
    text-decoration: none;
    background: var(--corbotao);
    border: 1px solid var(--corborda);
